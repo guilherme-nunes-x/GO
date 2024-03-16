@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 
@@ -37,9 +39,30 @@ func main() {
 	var soma2 float64 = num1 + num2
 
 	fmt.Printf("Os valores foram %v e %v, e a soma %v\n", num1, num2, soma2)
+
 	// teste com arrays
 
-	var nomes = [2]string{"luis", "joao"}
+	var nomes = [4]string{"luis", "joao", "jack", "estevão"}
 
 	fmt.Println(nomes, len(nomes))
+
+	nomes[0] = "leo"
+	fmt.Println(nomes, len(nomes))
+
+	//slices não possuem limites pre-estabelecidos ou seja posso adicionar mais elementos
+
+	var nuns = []int{12, 23, 34}
+	fmt.Println(nuns, len(nuns))
+	nuns = append(nuns, 98, 34)
+	fmt.Println(nuns, len(nuns))
+
+	// slice para retirar valores
+
+	primer1 := nuns[0:1]
+	primer2 := nuns[0:2]
+	primer3 := nuns[0:3]
+	primer4 := nuns[0:4]
+
+	fmt.Println(primer1, primer2, primer3, primer4)
+
 }
