@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+	"sort"
+	"strings"
 )
 
 func main() {
@@ -65,4 +67,33 @@ func main() {
 
 	fmt.Println(primer1, primer2, primer3, primer4)
 
+	//packges string
+	luis := "ola eduardo"
+
+	//fmt.Println(strings.Contains(luis, "ola"))
+	//fmt.Println(strings.ReplaceAll(luis, "ola", "tchau"))
+	//fmt.Println(strings.ToUpper(luis))
+	//fmt.Println(strings.Index(luis, "e"))
+	fmt.Println(strings.Split(luis, ""))
+
+	fmt.Println("a versão original do teste acima :=", luis)
+
+	//package sort
+	//utilizamos para organizar os numeros
+	idades := []int{12, 13, 14, 11, 143, 123}
+
+	sort.Ints(idades)
+
+	fmt.Println(idades)
+
+	Invex := sort.SearchInts(idades, 14)
+
+	fmt.Println(Invex)
+
+	names := []string{"guilherme", "eduardo", "luis", "steve"}
+
+	sort.Strings(names)
+	fmt.Println(names)
+
+	fmt.Println(sort.SearchStrings(names, "luis"))
 }
