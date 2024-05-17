@@ -8,7 +8,7 @@ func main() {
 	//strings
 
 	var name string = "Um"
-	var nameDois = "Dois"
+	var nameDois = "tres"
 	var nameTres string
 	fmt.Println(name, nameDois, nameTres)
 
@@ -17,7 +17,7 @@ func main() {
 
 	fmt.Println(name, nameDois, nameTres)
 
-	namerex := "renovo"
+	namerex := "rename"
 
 	fmt.Println(namerex)
 
@@ -25,7 +25,7 @@ func main() {
 
 	var numberUm int = 23
 	var numberdois = 12
-	number := 78
+	number := 67
 	fmt.Println(numberUm, numberdois, number)
 
 	// bits & memory
@@ -33,7 +33,7 @@ func main() {
 	var num1 int8 = 2
 	var num2 int16 = 23
 	num3 := 28
-	var num4 uint = 4
+	var num4 uint = 89
 	fmt.Println(num1, num2, num3, num4)
 
 	//Float
