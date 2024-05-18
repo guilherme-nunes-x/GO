@@ -23,7 +23,7 @@ func main() {
 
 	// ints
 
-	var numberUm int = 23
+	var numberUm int = 2
 	var numberdois = 12
 	number := 67
 	fmt.Println(numberUm, numberdois, number)
@@ -43,4 +43,14 @@ func main() {
 
 	fmt.Println(val1, val2)
 
+	//calc
+
+	div := numberdois / numberUm
+	fmt.Println(div)
+	ves := numberdois * numberUm
+	fmt.Println(ves)
+	soma := numberdois + numberUm
+	fmt.Println(soma)
+	sub := numberdois - numberUm
+	fmt.Println(sub)
 }
