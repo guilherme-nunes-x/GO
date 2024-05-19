@@ -7,7 +7,7 @@ func main() {
 	var number = 12
 
 	//Print  = não pula linha existe necessidade de \n
-
+	
 	fmt.Print("hello")
 	fmt.Print(" world\n")
 	//Usando o \n conseguimos separar essas duas mensagens
