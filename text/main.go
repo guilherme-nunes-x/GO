@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	var name = "jonathan"
-	var number = 12
+	var name = "eric"
+	var number = 67
 
 	//Print  = não pula linha existe necessidade de \n
 	
@@ -25,7 +25,7 @@ func main() {
 
 	name = "ricardo"
 	number = 23
-	number1 := "23"
+	number1 := "34"
 
 	//espor variavel normalmente
 	fmt.Printf("Meu nome é %v, e minha idade é %v\n", name, number)
