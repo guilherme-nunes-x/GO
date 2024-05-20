@@ -43,6 +43,4 @@ func main() {
 	var mensagem = fmt.Sprintf("Hello my name is %v\n", name)
 	fmt.Println("Eu sei ingles agora : ", mensagem)
 
-	//Arrays = armazenadores de varios dados
-
 }
