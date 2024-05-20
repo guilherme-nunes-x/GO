@@ -12,6 +12,8 @@
 
 > Currently this repository will not yet have a large functional project, but only tests with basic knowledge of GOlang and Git.
 
+>The branches used as a base are “gorun” and “main”
+
 ---
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=dfc130&height=120&section=footer"/>
