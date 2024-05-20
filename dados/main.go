@@ -53,4 +53,42 @@ func main() {
 	fmt.Println(soma)
 	sub := numberdois - numberUm
 	fmt.Println(sub)
+
+	//Arrays = armazenadores de varios dados
+
+	var ages [5]int = [5]int{1, 2, 3, 4, 5}
+	var age = [4]int{1, 2, 3, 4}
+	names := [4]string{"guilherme", "eduardo", "gabriel", "luis"}
+
+	//len é um comando que permite ver o tamanho de um arrays
+
+	fmt.Println(age, len(age))
+	fmt.Println(ages, len(ages))
+	fmt.Println(names, len(names))
+	//substitui valor no array por posição
+	ages[2] = 54
+	fmt.Println(ages, len(ages))
+
+	// Slices (usa fatias de um arrays)
+	// existe a possibilidade não colocar um valor fixo no array
+	var valores = []int{10, 20, 30, 40, 50}
+	//substitui valor no array por posição
+	valores[1] = 32
+	//Append é capaz de adicionar novo valor no arrays
+	valores = append(valores, 98)
+
+	fmt.Println(valores, len(valores))
+
+	// Ragens são intervalos de slice
+
+	valor := valores[0:2]
+	valor2 := names[2:]
+	valor3 := names[:3]
+	fmt.Println(valor, valor2, valor3)
+
+	//uso de append dentro de um slice
+
+	valor2 = append(valor2, "willian")
+
+	fmt.Println(valor2)
 }
