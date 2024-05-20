@@ -7,7 +7,7 @@ func main() {
 	var number = 67
 
 	//Print  = não pula linha existe necessidade de \n
-	
+
 	fmt.Print("hello")
 	fmt.Print(" world\n")
 	//Usando o \n conseguimos separar essas duas mensagens
@@ -42,4 +42,7 @@ func main() {
 
 	var mensagem = fmt.Sprintf("Hello my name is %v\n", name)
 	fmt.Println("Eu sei ingles agora : ", mensagem)
+
+	//Arrays = armazenadores de varios dados
+
 }
