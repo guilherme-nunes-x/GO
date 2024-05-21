@@ -15,5 +15,11 @@
 >The branches used as a base are “gorun” and “main”
 
 ---
+## 📚 Conhecimentos praticados
+> As liguagens e conhecimentos testados serão:
+* ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+* ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+* ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
 
+---
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=dfc130&height=120&section=footer"/>
